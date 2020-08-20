@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录页面</title>
+    <link rel="stylesheet" href="/assets/lib/layui/css/layui.css">
+    <link rel=" stylesheet" href="/assets/css/login.css">
+</head>
+
+<body>
+    <!-- logo区域 -->
+    <div id="logo">
+        <img src="/assets/images/logo.png" alt="">
+    </div>
+    <!-- 内容区域 登录和注册区域 -->
+
+    <!-- 登录的盒子 -->
+    <div class="box login">
+        <!-- 盒子的标题 -->
+        <div class="title"></div>
+        <!-- 登录的表单 -->
+        <form class="layui-form" action="">
+            <!-- 第一行用户名 -->
+            <div class="layui-form-item">
+                <input type="text" name="title" required lay-verify="required" placeholder="请输入用户名" autocomplete="off"
+                    class="layui-input">
+            </div>
+            <!-- 第二行密码 -->
+            <div class="layui-form-item">
+                <input type="text" name="title" required lay-verify="required" placeholder="请输入密码" autocomplete="off"
+                    class="layui-input">
+            </div>
+            <!-- 第三行按钮 -->
+            <div class="layui-form-item">
+                <button type="button" class="layui-btn layui-btn-fluid layui-bg-blue">登录</button>
+            </div>
+            <!-- 第四行超链接 -->
+            <div class="layui-form-item dl">
+                <a href="javascript:;">去注册账号</a>
+            </div>
+        </form>
+    </div>
+
+    <!-- 注册的盒子 -->
+    <div class="box register">
+        <!-- 盒子的标题 -->
+        <div class="title"></div>
+        <!-- 登录的表单 -->
+        <form class="layui-form" action="">
+            <!-- 第一行用户名 -->
+            <div class="layui-form-item">
+                <input type="text" name="title" required lay-verify="required" placeholder="请输入用户名" autocomplete="off"
+                    class="layui-input">
+            </div>
+            <!-- 第二行密码 -->
+            <div class="layui-form-item">
+                <input type="text" name="title" required lay-verify="required" placeholder="请输入密码" autocomplete="off"
+                    class="layui-input">
+            </div>
+            <!-- 第三行重复密码 -->
+            <div class="layui-form-item">
+                <input type="text" name="title" required lay-verify="required" placeholder="请输入再次密码" autocomplete="off"
+                    class="layui-input">
+            </div>
+            <!-- 第四行按钮 -->
+            <div class="layui-form-item">
+                <button type="button" class="layui-btn layui-btn-fluid layui-bg-blue">注册</button>
+            </div>
+            <!-- 第五行超链接 -->
+            <div class="layui-form-item dl">
+                <a href="javascript:;">已有账号，去登录</a>
+            </div>
+        </form>
+    </div>
+
+    <script src="/assets/lib/jquery.js"></script>
+    <script src="/assets/js/login.js"></script>
+</body>
+
+</html>
