@@ -1,0 +1,29 @@
+.tuichu span {
+    padding-right: 10px;
+}
+
+.userinfo {
+    height: 60px;
+    line-height: 60px;
+    padding-left: 50px;
+}
+
+.text-avater {
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #419488;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.text-avater, .layui-nav-img {
+    display: none;
+}
+
+.left li span {
+    margin-right: 10px;
+}
