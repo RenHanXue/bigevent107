@@ -20,10 +20,20 @@
     border-radius: 50%;
 }
 
-.text-avater, .layui-nav-img {
+.text-avater,
+.layui-nav-img {
     display: none;
 }
 
 .left li span {
     margin-right: 10px;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.layui-body {
+    overflow: hidden;
 }
